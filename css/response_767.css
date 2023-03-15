@@ -1,0 +1,57 @@
+@media (max-width: 767px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .main_title{
+        font-size: 27px;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .metronome .bpm .val{
+        font-size: 130px;
+
+        margin: 10px 0;
+    }
+
+
+    .bpm_buttons .grid{
+        --items: 5;
+    }
+
+    .bpm_buttons .item:nth-child(n + 16){
+        display: none;
+    }
+
+
+    .features .grid{
+        --items: 1;
+    }
+
+
+    .error_page .title{
+        font-size: 200px;
+        line-height: 150px;
+    }
+
+    .error_page .desc{
+        margin-top: 40px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .bot .copy{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    footer .bot .sep.hidden_mob{
+        display: none;
+    }
+}
